@@ -1,8 +1,8 @@
-# Creates pseudo distributed hadoop 2.7.0
+# Creates pseudo distributed hadoop 2.7.0 on Centos 7 lastest
 #
 # docker build -t sequenceiq/hadoop .
 
-FROM sequenceiq/pam:centos-6.5
+FROM centos:latest
 MAINTAINER SequenceIQ
 
 USER root
